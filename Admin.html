@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Admin</title>
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css" />
+  <link rel="stylesheet" href="admin.css">
+</head>
+
+<body>
+  <div class="container">
+    <div class="navigation">
+      <ul>
+        <li>
+          <a href="trangchu.html">
+            <span><img src="./img/logo3.jpg" width="70px" height="70px" alt=""></span>
+            <h2 style="margin: 30px;font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">Ngo Huy</h2><br>
+           
+          </a>
+          
+        </li>
+        <li>
+          <a href="#">
+            <span class="icon"><i class="bi bi-menu-button-wide"></i></span>
+            <span class="title">Bảng Điều Khiển</span>
+
+          </a>
+        </li>
+        <li>
+          <a href="quanlyadm.html">
+            <span class="icon"><i class='bx bxl-product-hunt'></i></span>
+            <span class="title">Quản lý sản phẩm</span>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <span class="icon"><i class='bx bxs-user-account'></i></span>
+            <span class="title">Quản lý người dùng</span>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <span class="icon"><i class="bi bi-people"></i></span>
+            <span class="title">Quản lý user</span>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <span class="icon"><i class="bi bi-cart"></i></span>
+            <span class="title">Quản lý Đặt Hàng</span>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <span class="icon"><i class="bi bi-envelope"></i></span>
+            <span class="title">Mailbox</span>
+          </a>
+        </li>
+        
+        <li>
+          <a href="#">
+            <span class="icon"><i class="bi bi-person"></i></span>
+            <span class="title">Tài Khoản</span>
+          </a>
+        </li>
+        
+        
+      
+        
+        <li>
+          <a href="Trangchu.html">
+            <span class="icon"><i class='bx bx-log-in'></i></span>
+            <span class="title">Đăng Xuất</span>
+          </a>
+        </li>
+      </ul>
+    </div>
+
+
+
+    <div class="main">
+      <div class="topbar">
+        <div class="toggle">
+          <i class='bx bx-menu'></i>
+        </div>
+        <div class="search">
+          <label>
+            <input type="text" placeholder="Tìm kiếm tại đây">
+            <i class='bx bx-search-alt-2'></i>
+          </label>
+        </div>
+        <div class="user">
+          <img src="img/gon.jpg" width="100" height="100" alt="">
+        </div>
+      </div>
+
+      <div class="cardBox">
+        <div class="card">
+          <div>
+            <div class="numbers row">
+              <span class="total-cart total-1"></span>
+              <!-- <div class="d-inline"><sup>đ</sup></div> -->
+            </div>
+            <div class="cardName">Doanh thu</div>
+          </div>
+          <div class="iconBx">
+            <i class='bx bx-money'></i>
+          </div>
+        </div>
+        <div class="card">
+          <div>
+            <div class="numbers total-count"></div>
+            <div class="cardName">Sản phẩm</div>
+          </div>
+          <div class="iconBx">
+            <i class='bx bx-cart-alt'></i>
+          </div>
+        </div>
+        <div class="card">
+          <div>
+            <div class="numbers">15.000</div>
+            <div class="cardName">Tin nhắn phản hồi</div>
+          </div>
+          <div class="iconBx">
+            <i class='bx bx-chat'></i> </div>
+        </div>
+        <div class="card">
+          <div>
+            <div class="numbers">1.053.434</div>
+            <div class="cardName">Lượt xem theo dõi</div>
+          </div>
+          <div class="iconBx">
+            <i class="bi bi-eye"></i>
+          </div>
+        </div>
+      </div>
+
+      <div class="graphBox">
+        <div class="box">
+          <img src="./img/bieudo2.jpg" alt="" width="400px" height="300px">
+        </div>
+        <div class="box">
+          <!-- <canvas id="earning"></canvas> -->
+          <img src="./img/bieudo1.jpg" alt="" width="500px" height="300px">
+        </div>
+      </div>
+
+
+      <div class="details">
+        <div class="recentOrders">
+          <div class="cardHeader">
+            <h2>Những đơn đặt gần đây </h2>
+            <a href="#" class="btn">Tất cả</a>
+          </div>
+          <table>
+            <thead>
+              <tr>
+                <td>Tên</td>
+                <td>Tổng tiền</td>
+                <td>Thanh Toán</td>
+                <td>Phản hồi</td>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Trần Thị Kim</td>
+                <td>$90000</td>
+                <td>Paid</td>
+                <td><span class="status delivered">Delivered</span></td>
+              </tr>
+              <tr>
+                <td>Võ Xuân Diệu</td>
+                <td>$50000</td>
+                <td>Due</td>
+                <td><span class="status delivered">Delivered</span></td>
+              </tr>
+              <tr>
+                <td>Vũ Xuân Thanh</td>
+                <td>$66666</td>
+                <td>Paid</td>
+                <td><span class="status delivered">Delivered</span></td>
+              </tr>
+              <tr>
+                <td>Đinh Tấn Dũng</td>
+                <td>$84323</td>
+                <td>Due</td>
+                <td><span class="status delivered">Delivered</span></td>
+              </tr>
+              <tr>
+                <td>Gia Cát Lượng</td>
+                <td>$76474</td>
+                <td>Paid</td>
+                <td><span class="status delivered">Delivered</span></td>
+              </tr>
+              <tr>
+                <td>Tư Mã Ý</td>
+                <td>$65345</td>
+                <td>Due</td>
+                <td><span class="status delivered">Delivered</span></td>
+              </tr>
+              <tr>
+                <td>Chu Nguyên Chương</td>
+                <td>$19877</td>
+                <td>Paid</td>
+                <td><span class="status delivered">Delivered</span></td>
+              </tr>
+              <tr>
+                <td>Lưu Bị</td>
+                <td>$56343</td>
+                <td>Due</td>
+                <td><span class="status delivered">Delivered</span></td>
+              </tr>
+              <tr>
+                <td>Xuân Diệu</td>
+                <td>$64656</td>
+                <td>Paid</td>
+                <td><span class="status delivered">Delivered</span></td>
+              </tr>
+              <tr>
+                <td>Lưu Bang</td>
+                <td>$7224</td>
+                <td>Due</td>
+                <td><span class="status delivered">Delivered</span></td>
+              </tr>
+              <tr>
+                <td>Triệu Tử Long</td>
+                <td>$76473</td>
+                <td>Paid</td>
+                <td><span class="status delivered">Delivered</span></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+        <div class="recentCustomers">
+          <div class="cardHeader">
+            <h2>Khách vip</h2>
+          </div>
+          <table>
+            <tr>
+              <td width="60px">
+                <div class="imgBx"><img src="./img/itachi.jpg" alt=""></div>
+              </td>
+              <td>
+                <h4>Itachi <br><span>Nhật Bản</span></h4>
+              </td>
+            </tr>
+            <tr>
+              <td width="60px">
+                <div class="imgBx"><img src="./img/luffy.jpg" alt=""></div>
+              </td>
+              <td>
+                <h4>Luffy <br><span>Tokyo</span></h4>
+              </td>
+            </tr>
+            <tr>
+              <td width="60px">
+                <div class="imgBx"><img src="./img/satoru.jpg" alt=""></div>
+              </td>
+              <td>
+                <h4>Satoru <br><span>Korea</span></h4>
+              </td>
+            </tr>
+            <tr>
+              <td width="60px">
+                <div class="imgBx"><img src="./img/yu.jpg" alt=""></div>
+              </td>
+              <td>
+                <h4>Ichika Hoshimiya <br><span>Kanagawa</span></h4>
+                
+              </td>
+            </tr>
+            <tr>
+              <td width="60px">
+                <div class="imgBx"><img src="./img/yi.jpg" alt=""></div>
+              </td>
+              <td>
+                <h4>Momo Sakura<br><span> Akita</span></h4>
+              </td>
+            </tr>
+            <tr>
+              <td width="60px">
+                <div class="imgBx"><img src="img/tung.jpg" alt=""></div>
+              </td>
+              <td>
+                <h4>G-Dragon Thái Bình<br><span>VietNam</span></h4>
+              </td>
+            </tr>
+            <tr>
+              <td width="60px">
+                <div class="imgBx"><img src="img/gon.jpg" alt=""></div>
+              </td>
+              <td>
+                <h4>G-Dragon<br><span>Korea</span></h4>
+              </td>
+            </tr>
+            <tr>
+              <td width="60px">
+                <div class="imgBx"><img src="img/se.jpg" alt=""></div>
+              </td>
+              <td>
+                <h4>ROSÉ <br><span>Seoul</span></h4>
+              </td>
+            </tr>
+            <tr>
+              <td width="60px">
+                <div class="imgBx"><img src="img/sa.jpg" alt=""></div>
+              </td>
+              <td>
+                <h4>LISA<br><span>Korea</span></h4>
+              </td>
+            </tr>
+          </table>
+        </div>
+
+      </div>
+
+    </div>
+  </div>
+
+</body>
+<script src="https://cdn.jsdelivr.net/npm/chart.js@3.9.1/dist/chart.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+<script src="js/admin.js"></script>
+<script language="Javascript" src="js/giohang.js"></script>
+  <script>
+  /// toggle///
+  let toggle = document.querySelector('.toggle');
+  let navigation = document.querySelector('.navigation');
+  let main = document.querySelector('.main');
+
+  toggle.onclick = function () {
+    navigation.classList.toggle('active')
+    main.classList.toggle('active')
+  }
+
+
+
+  /////
+  let list = document.querySelectorAll('.navigation li');
+
+  function activeLink() {
+    list.forEach((item) =>
+      item.classList.remove('hovered'));
+    this.classList.add('hovered');
+  }
+  list.forEach((item) =>
+    item.addEventListener('mouseover', activeLink));
+</script>
+
+</html>

@@ -1,0 +1,48 @@
+
+span{ color: red; }
+.image img{
+	height: 260px;
+	width: 100%;
+}
+.dangnhap{
+	color: #FFFFFF;
+
+	}
+.dangky{
+	padding-left: 370px;
+	color: #FFFFFF;
+}
+
+.lc{
+	color: #FFFFFF;
+}
+
+}
+.wrapper{
+	max-width: 1170px;
+	margin: 0 auto;
+}
+.text-center{
+	font-size: 20px;
+	color: #111;
+	padding: 10px 20px;
+	text-transform:uppercase;
+	
+}
+.box{
+	padding-top: 20px;
+	padding-bottom:  20px;
+	margin: 5px 10px 
+
+
+}
+.mxc{
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+.pox{
+ text-align: center;margin: 2px 2px
+}
+.menu{
+	text-align: left;
+}

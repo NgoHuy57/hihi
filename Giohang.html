@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Basic Polo-Lyos</title>
+    <link rel="stylesheet" type="text/css" href="basicpolo1.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <script src="jquery.min.js"></script>
+    <script src="giohang.html"></script>
+
+</head>
+
+<body>
+    <div class="row" style="background-color: black;">
+        <div class="col-md-6 "
+            style="text-align: center; color: #FFFFFF; font-weight: bold; padding-top: 5px;padding-bottom: 5px; ">
+            MIỄN PHÍ VẬN CHUYỂN ĐỐI VỚI ĐƠN HÀNG TRÊN 1.500.000
+        </div>
+    </div>
+    <div class="col-8 logo"><a href="all.html"><img src="./img/logo.jpg" alt=""></a></div>
+    <form action="">
+        <section class="cart">
+            <h3 style="text-align: center;font-weight: bold;">Giỏ Hàng Của Bạn</h3>
+            <div style="width: 100%;">
+                <div onclick="deleteCartItem()" style="float: right;">X</div>
+            </div>
+            <table>
+                <tbody>
+                    <tr id="item01">
+                        <td style="display: flex;align-items:center;">
+                            <img style="width: 200px;" src="./img/1.jpg" alt="">
+                        </td>
+
+                        <td>
+                            <p><span>Basic Polo(Black)</span></p>
+
+
+                            <p><span> 320.000 </span><sup>đ</sup></p>
+
+                            <p><span>Xs</span></p>
+                            <input style="width: 50px;" type="number" value="1">
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+            <table class="bot">
+                <tbody>
+                    <thead>
+                        <tr>
+                            <td><textarea style="background-color: #ededed;height: 130px; outline: none;border: 1px solid transparent; padding: 20px;" id="note" name="note" rows="8" cols="60"placeholder="Ghi chú"></textarea></td>
+                          <td><p class="order-infor">					
+                          
+                            <span class="total_price" style="float: right;"> Tổng tiền:<b>320.000<sup>₫</sup></b></span>
+                            <div class="giohangbt">
+                                <a href=""><button  class="btn btn-outline-dark " style="float: left;width: 160px;margin-left: 30px; display:none" type="submit" id="continue-shop">TIẾP TỤC MUA HÀNG</button></a>
+                                <a href="thanhtoan.html"><button  class="btn btn-outline-dark "style="float: right;width: 150PX"  type="submit">THANH TOÁN</button></a>
+                            </div>
+                            </p>
+                        </td>
+                        </tr>
+                        
+                    </thead>
+                </tbody>
+            </table>
+        </section>
+    </form>
+    <footer>
+        <span style="text-align: center;">© 2022 LYOS</span>
+    </footer>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js"
+        integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js"
+        integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy"
+        crossorigin="anonymous"></script>
+    <script src="./giohang.js"/>
+</body>
+
+</html>
